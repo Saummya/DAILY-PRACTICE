@@ -35,7 +35,7 @@ Expected Auxillary Space:O(1)
 Constraints:
 1<=N<=109
 '''
-#User function Template for python3
+#User  function Template for python3
 import math
 class Solution:
     def fullPrime(self,N):
