@@ -40,3 +40,60 @@ Constraints:
 0 ≤ K ≤ 103
 1 ≤ A[i] ≤ 103
 '''
+
+#Solution:
+'''
+In order to find the minimum number of coins to be added, we iterate over all the coin pile sizes,
+and for the rest of the piles if the pile size is less than the current size then remove that pile entirely
+otherwise if the pile size is greater than current pile size plus K then remove the excess coins. The minimum
+number of coins removed in any of the turns is the answer.
+'''
+#User function Template for python3
+
+class Solution:
+    def minSteps(self, A, N, K):
+        # code here 
+        def upper_bound(l, r, val):
+            pos = r+1
+            while l <= r:
+                mid = (l+r)//2
+                if A[mid] > val:
+                    pos = mid
+                    r = mid-1
+                else:
+                    l = mid+1
+            return pos
+        
+        arr = [0]*N
+        A.sort()
+        arr[0] = A[0]
+        for i in range(1, N):
+            arr[i] = arr[i-1]+A[i]
+            
+        ans = 1000000000
+        prev = 0
+        for i in range(N):
+            pos = upper_bound(i, N-1, A[i]+K)
+            if i > 0 and A[i] != A[i-1]:
+                prev = arr[i-1]
+            
+            temp = prev + arr[N-1]-arr[pos-1]-(N-pos)*(A[i]+K)
+            if temp < ans:
+                ans = temp
+        return ans
+            
+
+#{ 
+#  Driver Code Starts
+#Initial Template for Python 3
+
+if __name__ == '__main__': 
+    t = int (input ())
+    for _ in range (t):
+        N,K=map(int,input().split())
+        A=list(map(int,input().split()))
+        
+        ob = Solution()
+        print(ob.minSteps(A,N,K))
+# } Driver Code Ends
+
