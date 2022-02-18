@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution:
     def zigzagLevelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        
         levels = []
         if not root:
             return levels
@@ -23,3 +24,30 @@ class Solution:
                 bfs(node.right, level+1)
         bfs(root, 0)
         return levels
+        
+    '''
+        
+    # iterative
+    def zigZaglevelOrderTraversal(root):
+        
+        if not root:
+            return levels
+
+        level = 0
+        q = deque([root])
+        levels = []
+        while q:
+            levels.append(deque([]))
+
+            for i in range(len(q)):
+                node = q.popleft()
+                if level % 2 == 0:
+                    levels[level].append(node.val)
+                else:
+                    levels[level].appendleft(node.val)
+                if node.left:
+                    q.append(node.left)  
+                if node.right:
+                    q.append(node.right)
+            level += 1
+        return levels'''
