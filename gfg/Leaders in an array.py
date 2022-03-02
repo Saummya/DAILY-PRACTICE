@@ -47,17 +47,18 @@ class Solution:
     #Function to find the leaders in the array.
     def leaders(self, A, N):
         #Code here
-        l=[]
-        
-        max1=A[N-1]
-        l.append(max1)
-        for i in range(N-2,0,-1):
-            if A[i]<max1:
-                continue
-            else:
-                max1=A[i]
-                l.append(A[i])
-        return l[::-1]
+        ans=[]
+        final_ans=[]
+        maxi=-1   #taking the last element
+        for val in reversed(A):
+            maxi=max(maxi,val)
+            if(maxi==val):
+                ans.append(val)
+                
+        # for i in range(len(ans),-1,-1):
+        #     final_ans.append(ans[i])
+            
+        return reversed(ans)
 
 #{ 
 #  Driver Code Starts
