@@ -8,7 +8,7 @@
 <pre><span style="font-size:18px"><strong>Input:
 </strong>N = 4
 A[] = {1, 2, 3, 4}<strong>
-â€‹Output:</strong></span>
+Output:</strong></span>
 <span style="font-size:18px">1 3</span>
 </pre>
 
@@ -17,7 +17,7 @@ A[] = {1, 2, 3, 4}<strong>
 <pre><span style="font-size:18px"><strong>Input:
 </strong>N = 5
 A[] = {1, 2, 3, 4, 5}<strong>
-â€‹Output:
+Output:
 </strong>1 3 5</span>
 </pre>
 
