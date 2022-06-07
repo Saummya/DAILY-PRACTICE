@@ -4,8 +4,13 @@
 # n is the number of elements in array
 def printAl(arr,n):
     # your code here
-    for i in range(0,n,2):
-        print(arr[i],end=" ")
+    l=[]
+    for i in range(n):
+        if i%2==0:
+           print(arr[i],end=" ")
+      
+            
+
 
 #{ 
 #  Driver Code Starts
