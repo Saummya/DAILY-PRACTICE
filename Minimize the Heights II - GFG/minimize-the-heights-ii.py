@@ -2,7 +2,8 @@
 
 class Solution:
     def getMinDiff(self, arr, n, k):
-        # code here
+        # code 
+    
         arr=sorted(arr)
         max_ele=max(arr)
         min_ele=min(arr)
