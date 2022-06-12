@@ -1,23 +1,20 @@
 
-
 class Solution:
     #Back-end complete function Template for Python 3
     
     #Function to find the leaders in the array.
     def leaders(self, A, N):
         #Code here
-        ans=[]
-        final_ans=[]
-        maxi=-1   #taking the last element
-        for val in reversed(A):
-            maxi=max(maxi,val)
-            if(maxi==val):
-                ans.append(val)
+        l=[]
+        l.append(A[N-1])
+        max1=A[N-1]
+        
+        for i in range(N-2,-1,-1):
+            if A[i]>=max1:
+                l.append(A[i])
+                max1=max(max1,A[i])
                 
-        # for i in range(len(ans),-1,-1):
-        #     final_ans.append(ans[i])
-            
-        return reversed(ans)
+        return l[::-1]
 
 #{ 
 #  Driver Code Starts
