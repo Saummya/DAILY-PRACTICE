@@ -21,10 +21,6 @@ class Solution:
         l2=[-1]
         return l2
        
-       
-  
-               
-    
 
 #{ 
 #  Driver Code Starts
