@@ -10,10 +10,4 @@ class Solution:
                 min=prices[i]
             profit=max(profit,prices[i]-min)
         return profit
-            
-        
-        
-        
-        
-            
         
