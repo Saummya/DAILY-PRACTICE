@@ -1,7 +1,6 @@
 # Fascinating Number
 ## Easy
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">Given a number <strong>N</strong>. Your task is to check whether it is fascinating or not.<br>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a number <strong>N</strong>. Your task is to check whether it is fascinating or not.<br>
 <strong>Fascinating Number</strong>:&nbsp;When a number(should contain 3 digits or more) is multiplied by 2 and 3 ,and when both these products are concatenated with the original number, then it results in all digits from 1 to 9 present exactly once.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
@@ -32,5 +31,4 @@ You don't need to read input or print anything. Your task is to complete the fun
 100 &lt;= N &lt;= 2*10<sup>9</sup></span></p>
 
 <p>&nbsp;</p>
- <p></p>
-            </div>
+</div>
