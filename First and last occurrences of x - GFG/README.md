@@ -1,7 +1,6 @@
 # First and last occurrences of x
 ## Easy
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">Given a sorted array <strong>arr</strong> containing <strong>n</strong> elements with possibly duplicate elements, the task is to find indexes of first and last occurrences of an element <strong>x</strong> in the given array.</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a sorted array <strong>arr</strong> containing <strong>n</strong> elements with possibly duplicate elements, the task is to find indexes of first and last occurrences of an element <strong>x</strong> in the given array.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
@@ -39,5 +38,4 @@ Since, this is a function problem. You don't need to take any input, as it is al
 1 ≤ N ≤ 10<sup>7</sup></span></p>
 
 <p>&nbsp;</p>
- <p></p>
-            </div>
+</div>
