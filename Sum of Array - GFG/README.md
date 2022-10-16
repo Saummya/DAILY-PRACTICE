@@ -1,7 +1,6 @@
 # Sum of Array
 ## Easy
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">Given an integer array <strong>Arr[] </strong>of size <strong>N</strong>. The task is to find sum of it.</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an integer array <strong>Arr[] </strong>of size <strong>N</strong>. The task is to find sum of it.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
@@ -32,5 +31,4 @@ Complete the function <strong>sum()</strong>&nbsp;which takes&nbsp;array&nbsp;<s
 1 &lt;= Arr[i] &lt;= 10<sup>4</sup></span></p>
 
 <p>&nbsp;</p>
- <p></p>
-            </div>
+</div>
