@@ -1,7 +1,6 @@
 # Print alternate elements of an array
 ## Easy
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">You are given an array<strong> A</strong> of size <strong>N</strong>. You need to print elements of A in alternate order (starting from index 0).</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">You are given an array<strong> A</strong> of size <strong>N</strong>. You need to print elements of A in alternate order (starting from index 0).</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
@@ -30,5 +29,4 @@ Output:
 
 <p><strong><span style="font-size:18px">Expected Time Complexity: </span></strong><span style="font-size:18px">O(n)</span><br>
 <strong><span style="font-size:18px">Expected Auxiliary Space:</span></strong><span style="font-size:18px"> O(1)</span></p>
- <p></p>
-            </div>
+</div>
