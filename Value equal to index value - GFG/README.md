@@ -1,7 +1,6 @@
 # Value equal to index value
 ## Easy
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">Given an array <strong>Arr</strong> of <strong>N</strong> positive integers. Your task is to find the elements whose value is equal to that of its index value (&nbsp;Consider 1-based indexing ).</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array <strong>Arr</strong> of <strong>N</strong> positive integers. Your task is to find the elements whose value is equal to that of its index value (&nbsp;Consider 1-based indexing ).</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
@@ -32,5 +31,4 @@ You don't need to read input or print anything. Your task is to complete the fun
 1 ≤ Arr[i] ≤ 10<sup>6</sup></span></p>
 
 <p>&nbsp;</p>
- <p></p>
-            </div>
+</div>
