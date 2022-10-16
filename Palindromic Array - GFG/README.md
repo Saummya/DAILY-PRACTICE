@@ -1,7 +1,6 @@
 # Palindromic Array
 ## Easy
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">Given </span><span style="font-size:18px">a Integer</span><span style="font-size:18px"> array A[] of n elements. Your task is to complete the function </span><strong><span style="font-size:18px">PalinArray</span></strong><span style="font-size:20px">.</span><span style="font-size:18px"> Which will return 1 if all the elements of the Array are palindrome otherwise it will return&nbsp;0.</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given </span><span style="font-size:18px">a Integer</span><span style="font-size:18px"> array A[] of n elements. Your task is to complete the function </span><strong><span style="font-size:18px">PalinArray</span></strong><span style="font-size:20px">.</span><span style="font-size:18px"> Which will return 1 if all the elements of the Array are palindrome otherwise it will return&nbsp;0.</span></p>
 
 <p>&nbsp;</p>
 
@@ -33,5 +32,4 @@ As all numbers are palindrome so This will return 1.</span>
 <span style="font-size:18px">1 &lt;=T&lt;= 50</span><br>
 <span style="font-size:18px">1 &lt;=n&lt;= 20</span><br>
 <span style="font-size:18px">1 &lt;=A[]&lt;= 10000</span></p>
- <p></p>
-            </div>
+</div>
