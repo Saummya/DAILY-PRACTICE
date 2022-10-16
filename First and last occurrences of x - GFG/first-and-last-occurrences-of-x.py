@@ -14,7 +14,8 @@ def find(arr,n,x):
         if arr[i]==x:
             l.append(i)
             break
-    return l'''
+    return l
+    '''
     
     #approach2
     a=-1
