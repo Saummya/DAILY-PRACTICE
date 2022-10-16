@@ -3,14 +3,14 @@ class Solution:
 
 	def print2largest(self,arr, n):
 		# code here
-		'''
-		if n<2:
-		    return
-		arr.sort
+		
+	
+		'''arr.sort
+		
 		for i in range(n-2,-1,-1):
 		    if arr[i] != arr[n-1]:
 		        return arr[i]
-		    return '''
+		    return'''
 		    
 		max1=arr[0]
 		max2=-1
