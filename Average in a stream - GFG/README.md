@@ -1,7 +1,6 @@
 # Average in a stream
 ## Easy
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">Given a stream of incoming numbers, find average or mean of the stream at every point.</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a stream of incoming numbers, find average or mean of the stream at every point.</span></p>
 
 <p>&nbsp;</p>
 
@@ -45,5 +44,4 @@ You don't need to read input or print anything. Your task is to complete the fun
 <p><span style="font-size:18px"><strong>Constraints:</strong><br>
 1 ≤ n ≤ 10<sup>5</sup><br>
 1 ≤ arr[i] ≤ 10<sup>6</sup></span></p>
- <p></p>
-            </div>
+</div>
