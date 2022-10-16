@@ -1,24 +1,16 @@
 #User function Template for python3
 
 def getMinMax( a, n):
-    max1=a[0]
-    min1=a[0]
+    m=max(a)
+    n=min(a)
     
-    for i in range(n):
-        if max1<a[i]:
-            max1=a[i]
-    
-    for i in range(n):
-        if min1>a[i]:
-            min1=a[i]
-    
-    return min1, max1
-    
+    return n,m
     
     
 
+
 #{ 
-#  Driver Code Starts
+ # Driver Code Starts
 #Initial Template for Python 3
 
 def main():
