@@ -1,7 +1,6 @@
 # Minimum distance between two numbers
 ## Easy
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">You are given an&nbsp;array <strong>A</strong>, of <strong>N</strong> elements. Find minimum index based&nbsp;distance between two elements of the array,&nbsp;<strong>x</strong> and <strong>y</strong>.</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">You are given an&nbsp;array <strong>A</strong>, of <strong>N</strong> elements. Find minimum index based&nbsp;distance between two elements of the array,&nbsp;<strong>x</strong> and <strong>y</strong>.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
@@ -34,5 +33,4 @@ Explanation: </strong>x = 42 and y = 12. We return
 <p><span style="font-size:18px"><strong>Constraints:</strong><br>
 1 &lt;= N &lt;= 10<sup>5</sup><br>
 0 &lt;= A[i], x, y &lt;= 10<sup>5</sup></span></p>
- <p></p>
-            </div>
+</div>
