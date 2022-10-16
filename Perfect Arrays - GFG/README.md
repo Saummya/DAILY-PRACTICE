@@ -1,7 +1,6 @@
 # Perfect Arrays
 ## Easy
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">Given an array of size <strong>N</strong> and you have to tell whether the array is perfect or not. An array is said to be perfect if it's reverse array matches the original array.&nbsp;If the array is perfect then print "PERFECT" else print "NOT PERFECT".</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array of size <strong>N</strong> and you have to tell whether the array is perfect or not. An array is said to be perfect if it's reverse array matches the original array.&nbsp;If the array is perfect then print "PERFECT" else print "NOT PERFECT".</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
@@ -31,5 +30,4 @@ The task is to complete the function <strong>IsPerfect()</strong>, which takes a
 <p><span style="font-size:18px"><strong>Constraints:</strong><br>
 1 ≤ N ≤ 10<sup>5</sup><br>
 1 ≤ a<sub>i</sub> ≤ 10<sup>3</sup></span></p>
- <p></p>
-            </div>
+</div>
