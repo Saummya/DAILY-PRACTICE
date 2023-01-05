@@ -1,6 +1,6 @@
 # Second Largest
 ## Easy
-<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array <strong>Arr</strong> of size <strong>N</strong>, print second largest element from an array.</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array <strong>Arr</strong> of size <strong>N</strong>, print second&nbsp;largest distinct element from an array.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
