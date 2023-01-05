@@ -12,12 +12,11 @@ class Solution:
             return arr[(n-1)//2]
             
     
-    
-    
+
 
 
 #{ 
-#  Driver Code Starts
+ # Driver Code Starts
 #Initial Template for Python 3
 
 def main():
