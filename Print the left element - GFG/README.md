@@ -1,7 +1,6 @@
 # Print the left element
 ## Easy
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">Given a array of length <strong>N</strong>, at each step it is reduced by 1 element. In the first step the&nbsp;maximum element would be removed, while in the second step minimum element of the remaining array would be removed, in the third step again the maximum and so on. Continue this till the array contains only 1 element. And find the final element remaining in the array.</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a array of length <strong>N</strong>, at each step it is reduced by 1 element. In the first step the&nbsp;maximum element would be removed, while in the second step minimum element of the remaining array would be removed, in the third step again the maximum and so on. Continue this till the array contains only 1 element. And find the final element remaining in the array.</span></p>
 
 <p>&nbsp;</p>
 
@@ -34,7 +33,7 @@ A[] = {8, 1, 2, 9, 4, 3, 7, 5}
 You don't need to read input or print anything. Your task is to complete the function&nbsp;<strong>leftElement()</strong>&nbsp;which takes the array <strong>A[]</strong> and its size <strong>N</strong><strong> </strong>as inputs and returns the final remaining element in the array.</span></p>
 
 <p><br>
-<span style="font-size:18px"><strong>Expected Time Complexity:</strong> O(LogN)<br>
+<span style="font-size:18px"><strong>Expected Time Complexity:</strong> O(NLogN)<br>
 <strong>Expected Auxiliary Space:</strong> O(1)</span></p>
 
 <p>&nbsp;</p>
@@ -42,5 +41,4 @@ You don't need to read input or print anything. Your task is to complete the fun
 <p><span style="font-size:18px"><strong>Constraints:</strong><br>
 1 ≤ N ≤ 10<sup>6</sup><br>
 1 ≤ A<sub>i</sub> ≤ 1000</span></p>
- <p></p>
-            </div>
+</div>
