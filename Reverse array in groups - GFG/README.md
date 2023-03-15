@@ -2,7 +2,7 @@
 ## Easy
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array arr[] of positive integers of size N. Reverse every sub-array group of size K.</span></p>
 
-<p><span style="font-size:18px"><strong>Note:</strong> If at any instance, there are no more subarrays of size greater than or equal to K, then reverse the last subarray (irrespective of its size).</span></p>
+<p><span style="font-size:18px"><strong>Note:</strong> If at any instance, there are no more subarrays of size greater than or equal to K, then reverse the last subarray (irrespective of its size). You shouldn't return any array, modify the given array in-place.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
