@@ -9,11 +9,14 @@ class Solution:
         k : find kth smallest element and return using this function
         '''
         
+        # 3, 4,7,10,15,20
+        
         arr.sort()
         return arr[k-1]
 
+
 #{ 
-#  Driver Code Starts
+ # Driver Code Starts
 #Initial Template for Python 3
 
 #contributed by RavinderSinghPB
