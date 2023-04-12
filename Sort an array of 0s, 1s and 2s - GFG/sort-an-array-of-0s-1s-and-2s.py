@@ -3,20 +3,8 @@
 class Solution:
     def sort012(self,arr,n):
         # code here
-        zero=arr.count(0)
-        one=arr.count(1)
-        two=arr.count(2)
         
-        for i in range(n):
-            if zero!=0:
-                arr[i]=0
-                zero-=1
-            elif one!=0:
-                arr[i]=1
-                one-=1
-            else:
-                arr[i]=2
-            
+        arr.sort()
         return arr
       
 
