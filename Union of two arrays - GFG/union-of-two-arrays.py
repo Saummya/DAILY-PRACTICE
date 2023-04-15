@@ -5,6 +5,7 @@ class Solution:
     def doUnion(self,a,n,b,m):
         
         #code here
+        '''
         s=set()
         
         for i in range(n):
@@ -14,6 +15,12 @@ class Solution:
             s.add(b[i])
             
         return len(s)
+        '''
+        
+        a=set(a)
+        b=set(b)
+        
+        return len(a.union(b))
        
 
 #{ 
