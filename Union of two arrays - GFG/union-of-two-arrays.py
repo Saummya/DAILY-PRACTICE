@@ -5,10 +5,16 @@ class Solution:
     def doUnion(self,a,n,b,m):
         
         #code here
-        a=set(a)
-        b=set(b)
+        s=set()
         
-        return len(a.union(b))
+        for i in range(n):
+            s.add(a[i])
+            
+        for i in range(m):
+            s.add(b[i])
+            
+        return len(s)
+       
 
 #{ 
 #  Driver Code Starts
