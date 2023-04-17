@@ -8,31 +8,22 @@ class Solution:
         curr_sum=0
         max_so_far=arr[0]
         
-        st=0
-        en=0
-        poi=0
-        
         for i in range(0,N):
-            curr_sum+=arr[i]
+            curr_sum=curr_sum+arr[i]
             
-            if max_so_far<curr_sum:
-                max_so_far=curr_sum
-                st=poi
-                en=i
-                
+            max_so_far= max(max_so_far,curr_sum)
+            
             if curr_sum<0:
                 curr_sum=0
-                poi=i+1
                 
-        s=0
-        for i in range(st,en+1):
-            s=s+arr[i]
+        return max_so_far
             
-        return s
+            
+     
                 
 
 #{ 
-#  Driver Code Starts
+ # Driver Code Starts
 #Initial Template for Python 3
 
 import math
