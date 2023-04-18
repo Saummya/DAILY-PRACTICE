@@ -3,33 +3,33 @@
 class Solution:
     def getMinDiff(self, arr, n, k):
         # code here
-        arr=sorted(arr)
-        max_ele=max(arr)
-        min_ele=min(arr)
-        result=arr[n-1]-arr[0]
+        arr.sort()
         
-        for i in range(n):
-            max_ele=max(arr[i-1]+k,arr[n-1]-k)
-            min_ele=min(arr[i]-k,arr[0]+k)
-            
-            if min_ele<0:
+        ans = arr[n-1]-arr[0]
+        
+        curr_min=arr[0]
+        curr_max=arr[n-1]
+        
+        for i in range(1,n):
+            if arr[i]<k:
                 continue
-            result=min(result,max_ele-min_ele)
-        return result
             
+            curr_min=min(arr[0]+k,arr[i]-k)
             
-        '''
-            if arr[i]<k+1:
-                arr[i]=arr[i]+k
-            else:
-                arr[i]-=k
+            curr_max=max(arr[n-1]-k,arr[i-1]+k)
             
-        k1=arr[n-1]
-        k2=arr[0]
-        return k1-k2'''
+            ans= min(ans, curr_max-curr_min)
+            
+        return ans
+        
+        
+       
+            
+
+
 
 #{ 
-#  Driver Code Starts
+ # Driver Code Starts
 #Initial Template for Python 3
 
 if __name__ == '__main__':
