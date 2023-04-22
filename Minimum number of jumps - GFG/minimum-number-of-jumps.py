@@ -4,7 +4,7 @@ class Solution:
 	    #code here
 	    if n<=1:
 	        return 0
-	    
+	        
 	    if arr[0]==0:
 	        return -1
 	        
@@ -15,22 +15,22 @@ class Solution:
 	    for i in range(1,n):
 	        if i==n-1:
 	            return jump
-	        
+	            
 	        maxReach=max(maxReach,i+arr[i])
 	        step-=1
-	        if step ==0:
+	        if step==0:
 	            jump+=1
-	            if i >= maxReach:
+	            if i>=maxReach:
 	                return -1
 	            step=maxReach-i
 	            
 	    return -1
-	   
-	
-	        
+	           
+    
+
 
 #{ 
-#  Driver Code Starts
+ # Driver Code Starts
 #Initial Template for Python 3
 if __name__ == '__main__':
 	T=int(input())
