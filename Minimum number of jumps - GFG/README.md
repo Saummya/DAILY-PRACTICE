@@ -1,7 +1,7 @@
 # Minimum number of jumps
-## Medium 
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">Given an array of <strong>N</strong> integers <strong>arr[]</strong> where each element represents the max number of steps that can be made forward from that element. Find&nbsp;the minimum number of jumps to reach the end of the array (starting from the first element).&nbsp;If an element is <strong>0</strong>, then you cannot move through that element.</span><br>
+## Medium
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array of <strong>N</strong> integers <strong>arr[]</strong> where each element represents the <strong>maximum</strong> length of the jump that can be made forward from that element. This means if arr[i] = x, then we can jump any distance y such that y&nbsp;≤ x.<br>
+Find&nbsp;the minimum number of jumps to reach the end of the array (starting from the first element).&nbsp;If an element is <strong>0</strong>, then you cannot move through that element.</span><br>
 <br>
 <span style="font-size:18px"><strong>Note: </strong>Return -1 if you can't reach the end of the array.</span></p>
 
@@ -41,5 +41,4 @@ You don't need to read input or print anything. Your task is to complete functio
 <span style="font-size:18px"><strong>Constraints:</strong><br>
 1 ≤ N ≤ 10<sup>7</sup><br>
 0 ≤ arr<sub>i</sub> ≤ 10<sup>7</sup></span></p>
- <p></p>
-            </div>
+</div>
