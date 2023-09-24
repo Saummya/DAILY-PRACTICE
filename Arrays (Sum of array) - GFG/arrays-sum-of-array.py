@@ -5,7 +5,7 @@ class Solution:
         # Your code goes here
         s=0
         for i in range(n):
-            s=s+arr[i]
+            s+=arr[i]
         return s
     
     
