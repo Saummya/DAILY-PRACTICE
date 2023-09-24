@@ -1,16 +1,18 @@
 #User function Template for python3
+
 class Solution:
 
 	
 	def seriesSum(self,n):
 	    # code here
-	    sum_total=n*(n+1)/2
-	    return int(sum_total)
+	    s=n*(n+1)/2
+	    return int(s)
+ 
 
 
 #{ 
-#  Driver Code Starts
-#Initial Template for Python 3
+ # Driver Code Starts
+                               #Initial Template for Python 3
 
 
 # Driver code 
