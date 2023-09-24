@@ -1,7 +1,6 @@
 # Count of smaller elements
 ## Easy
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">Given an sorted array <strong>A</strong> of size <strong>N</strong>. Find number of elements which are less than or equal to given element <strong>X</strong>.</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an sorted array <strong>A</strong> of size <strong>N</strong>. Find number of elements which are less than or equal to given element <strong>X</strong>.</span></p>
 
 <p>&nbsp;</p>
 
@@ -41,5 +40,4 @@ You don't need to read input or print anything. Your task is to complete the fun
 1 &lt;= N &lt;= 10<sup>5</sup><br>
 1 &lt;= A<sub>i </sub>&lt;= 10<sup>5</sup><br>
 0 &lt;= X &lt;= 10<sup>5</sup></span></p>
- <p></p>
-            </div>
+</div>
