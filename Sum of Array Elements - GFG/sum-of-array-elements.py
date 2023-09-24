@@ -2,13 +2,14 @@
 
 def sumElement(arr,n):
     #code here
-    sum1=0
+    s=0
     for i in range(n):
-        sum1+=arr[i]
-    return sum1
+        s+=arr[i]
+    return s
+
 
 #{ 
-#  Driver Code Starts
+ # Driver Code Starts
 #Initial Template for Python 3
 
 #contributed by RavinderSinghPB
