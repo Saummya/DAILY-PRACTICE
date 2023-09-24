@@ -3,14 +3,17 @@ class Solution:
 
 	def valueEqualToIndex(self,arr, n):
 		# code here
-		ans=[]
+		l=[]
 		for i in range(n):
-		    if arr[i]==i+1:
-		        ans.append(i+1) 
-		return ans
+		    if arr[i]==(i+1):
+		        l.append(i+1)
+        return l		    
+		    
+		    
+
 
 #{ 
-#  Driver Code Starts
+ # Driver Code Starts
 #Initial Template for Python 3
 
 
