@@ -1,17 +1,18 @@
 #User function Template for python3
 
 def countOfElements( a, n, x):
-    ct=0
+    count=0
     for i in range(n):
         if a[i]<=x:
-            ct+=1
-    return ct
+            count+=1
+    return count
     
 
 
 
+
 #{ 
-#  Driver Code Starts
+ # Driver Code Starts
 #Initial Template for Python 3
 
 def main():
