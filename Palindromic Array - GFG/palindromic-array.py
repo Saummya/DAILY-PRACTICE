@@ -2,22 +2,22 @@
 # Function should return True/False or 1/0
 def PalinArray(arr ,n):
     # Code here
-    ct=0
+    count=0
     for i in range(n):
-        a1=arr[i]
-        a2=[int(j) for j in str(a1)]
+        x=arr[i]
+        y=[int(j) for j in str(x)]
         
-        if a2==a2[ : :-1]:
-            ct+=1
-    if ct==n:
-        return True
+        if y==y[::-1]:
+            count+=1
+    if count==n:
+        return 1
     else:
-        return False
-        
+        return 0
+
 
 
 #{ 
-#  Driver Code Starts
+ # Driver Code Starts
 # Driver Program
 if __name__=='__main__':
     t=int(input())
