@@ -1,8 +1,11 @@
 #User function Template for python3
 
 def largest( arr, n):
-    return max(arr)
-    
+    le=arr[0]
+    for i in range(1,n):
+        if arr[i]>le:
+            le=arr[i]
+    return le
 
 
 
