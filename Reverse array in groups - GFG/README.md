@@ -31,7 +31,7 @@ You don't need to read input or print anything.&nbsp;The task is to complete the
 <p>&nbsp;</p>
 
 <p><span style="font-size:18px"><strong>Expected Time Complexity:</strong>&nbsp;O(N)<br>
-<strong>Expected Auxiliary Space:</strong>&nbsp;O(N)</span></p>
+<strong>Expected Auxiliary Space:</strong>&nbsp;O(1)</span></p>
 
 <p>&nbsp;</p>
 
